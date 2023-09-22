@@ -8,7 +8,7 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="profile" href="//gmpg.org/xfn/11">
 <link rel="pingback" href="https://human-rights.impacto-patronus.ancorathemes.com/xmlrpc.php">
-<link media="all" href="https://human-rights.impacto-patronus.ancorathemes.com/wp-content/cache/autoptimize/css/autoptimize_47076e50e607acd392781682e1d7999c.css" rel="stylesheet" /><title>make donation &#8211; ICJRSL</title>
+<link media="all" href="auto.css" rel="stylesheet" /><title>make donation &#8211; ICJRSL</title>
 <meta name="robots" content="noindex, nofollow" />
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
 <link rel="alternate" type="application/rss+xml" title="Impacto Patronus &raquo; Feed" href="https://human-rights.impacto-patronus.ancorathemes.com/feed/" />
@@ -521,7 +521,7 @@ Donation Total: </span>
 						url:		'https://human-rights.impacto-patronus.ancorathemes.com/wp-admin/admin-ajax.php',
 						dataType:	'json',
 						data:		data,
-						async:		false,
+						async:		true,
 						success:	function(ret, textStatus, XMLHttpRequest) {
 							if(ret.success == true)
 								content = ret.data;								
